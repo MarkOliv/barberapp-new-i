@@ -1,0 +1,6 @@
+{
+	"appId": "hairfashion.Barber",
+	"appName": "Hairfashion Barber",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

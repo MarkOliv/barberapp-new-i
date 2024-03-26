@@ -1,0 +1,7 @@
+{
+  "name": "Hairfashion Barber",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

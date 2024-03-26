@@ -1,0 +1,2 @@
+-- alterar apenas o nome da tabela no caso "barbers" para as outras tabelas pois a politica é igual para todas as tabelas
+create policy "Enable all for authenticated users only" on "public"."barbers" as permissive for all to authenticated using (true) with check (true);

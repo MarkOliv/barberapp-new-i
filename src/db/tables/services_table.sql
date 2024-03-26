@@ -1,0 +1,8 @@
+CREATE TABLE services (
+    id UUID PRIMARY KEY NOT NULL DEFAULT uuid_generate_v4(),
+    name TEXT UNIQUE NOT NULL,
+    time INT4 NOT NULL,
+    price FLOAT4 NOT NULL,
+    category TEXT NOT NULL,
+    created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
